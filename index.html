@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div ><h1><span class="score"> 00</span></h1></div>
+
+<div class="gameoverscreen">
+    <span class="txt">
+        Game Over, Otario!
+    </span>
+
+    <span class="scoretxt">
+        Score:<span class="finalscore">00</span>
+    </span>
+
+    <span class="btn">
+        Jogar Novamente?!
+    </span>
+</div>
+    
+<div id="main">
+    <canvas height="600" width="600" id="canvas"></canvas>
+<table id="mobile">
+<td>
+    <button onclick="direcionar('w')" class="dablio">W</button>
+    <button onclick="direcionar('a')" class="dablio">A</button>
+    <button onclick="direcionar('s')" class="dablio">S</button>
+    <button onclick="direcionar('d')" class="dablio">D</button>
+</td>
+</table> 
+</div >
+<script src="script.js"></script>
+</body>
+</html>
