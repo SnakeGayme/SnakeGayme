@@ -1,2 +1,0 @@
-# SnakeGayme
-Jogo da cobra
