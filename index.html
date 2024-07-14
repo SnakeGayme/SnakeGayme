@@ -23,14 +23,20 @@
     </span>
 </div>
     
-<div class="mobile">
-    <button onclick="direcionar('w')" class="dablio">W</button> 
-    <button onclick="direcionar('a')">A</button>
-    <button onclick="direcionar('s')">S</button>
-    <button onclick="direcionar('d')">D</button>
+<div id="main">
+    <canvas height="600" width="600" id="canvas"></canvas><br>
+<table id="mobile">
 
-</div>
-    <canvas height="600" width="600" id="canvas"></canvas>
-    <script src="script.js"></script>
+
+
+<td>
+    <button onclick="direcionar('w')" class="dablio">W</button>
+    <button onclick="direcionar('a')" class="dablio">A</button>
+    <button onclick="direcionar('s')" class="dablio">S</button>
+    <button onclick="direcionar('d')" class="dablio">D</button>
+</td>
+</table> 
+</div >
+<script src="script.js"></script>
 </body>
 </html>

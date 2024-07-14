@@ -2,20 +2,21 @@
 @import url('https://fonts.cdnfonts.com/css/minecraftia');
 
 *{
-    margin: 0;
+    
     box-sizing: border-box;
     padding: 0;
     gap: 0;
+    margin: 0;
 }
 
 body{
     background-color: rgb(12, 12, 12);
     display: flex;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
     color: whitesmoke;
     flex-direction: column;
+    
 }
 canvas{
     background-color: rgb(24, 24, 24);
@@ -70,12 +71,10 @@ div{
     margin: auto;
     align-items: center;
     display: none;
-    bottom: calc(100vh - 150px);
-    position: absolute;
 }
 
 .mobile button{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.473);
     border: none;
     padding: 30px;
     height: 40px;
@@ -95,17 +94,9 @@ div{
     background-color: rgb(192, 192, 192);
 }
 .dablio{
-    background-color: whitesmoke;
-    border: none;
-    padding: 10px;
-    height: 40px;
-    width: 40px;
-    font-family: minecraftia;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: auto;
-    margin-bottom: 5px;
+    background-color: rgba(245, 245, 245, 0.274);
+    color: black;
+    padding: 20px;
 
 
 }
@@ -114,7 +105,6 @@ div{
         #canvas{
             height: 300px;
             width: 300px;
-            margin-bottom: 30px;
         }
         .mobile{
             display: block;
@@ -123,4 +113,23 @@ div{
 }
 #canvas{
     border: 2px rgba(245, 245, 245, 0.644) solid;
+    margin: auto;
+}
+.dablio{
+    text-align: center;
+    margin: auto;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.274);
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    border-bottom: solid black 2px;
+    font-family: minecraft;
+    text-align: center;
+}
+#mobile{
+    margin: auto;
+    margin-top: 20px;
 }
