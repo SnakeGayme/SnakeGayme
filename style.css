@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    gap: 0;
 }
 
 body{
@@ -69,15 +70,18 @@ div{
     margin: auto;
     align-items: center;
     display: none;
+    bottom: calc(100vh - 150px);
+    position: absolute;
 }
 
 .mobile button{
     background-color: whitesmoke;
     border: none;
-    padding: 10px;
+    padding: 30px;
     height: 40px;
     width: 40px;
     font-family: minecraftia;
+    text-align: center;
     text-align: center;
 
 }
