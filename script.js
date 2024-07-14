@@ -83,6 +83,9 @@ if(!direction)return
     }
 }
 
+
+
+
 const linhas =()=>{
     contexto.lineWidth=1
     contexto.strokeStyle='#292929'
@@ -174,6 +177,23 @@ document.addEventListener("keydown", ({key})=>{
         direction="left"
     }
 })
+function direcionar(butao){
+    if(butao=='d' && direction != 'left'){
+        direction="right"
+    }
+
+    if(butao=='s' && direction != "up"){
+        direction="down"
+    }
+
+    if(butao=='w' && direction != "down"){
+        direction="up"
+    }
+
+    if(butao=='a' && direction!= 'right'){
+        direction="left"
+    }
+}
 
 button.addEventListener('click', ()=>{
     window.location.href = window.location.href

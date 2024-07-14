@@ -65,3 +65,58 @@ canvas{
 div{
     font-family: minecraft;
 }
+.mobile{
+    margin: auto;
+    align-items: center;
+    display: none;
+}
+
+.mobile button{
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-family: minecraftia;
+    text-align: center;
+
+}
+#gay{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+}
+.mobile button:active{
+    background-color: rgb(192, 192, 192);
+}
+.dablio{
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-family: minecraftia;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+
+
+}
+@media screen {
+    @media screen and (max-width: 600px){
+        #canvas{
+            height: 300px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+        .mobile{
+            display: block;
+        }
+    }
+}
+#canvas{
+    border: 2px rgba(245, 245, 245, 0.644) solid;
+}
